@@ -1,6 +1,6 @@
 # ヤジュッター検索
 
-ヤジュッター　(https://yajutter.yajuvideo.in/)　のヘッダーに検索機能を追加する Firefox 拡張機能です。
+ヤジュッター (https://yajutter.yajuvideo.in/) のヘッダーに検索機能を追加する Firefox 拡張機能です。
 
 ## 機能
 

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: -apple-system, 'Hiragino Sans', sans-serif; padding: 20px; max-width: 400px; }
+    h2 { color: #6d4c41; font-size: 16px; }
+    input { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 6px; font-family: monospace; font-size: 13px; margin: 8px 0; box-sizing: border-box; }
+    button { padding: 8px 20px; background: #6d4c41; color: #fff; border: none; border-radius: 6px; font-size: 13px; cursor: pointer; font-weight: 600; }
+    button:hover { background: #5d4037; }
+    #msg { margin-top: 8px; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h2>🔑 ヤジュッター検索 設定</h2>
+  <p style="font-size:13px;color:#666;">ヤジュッターのAPIキーを入力してください。</p>
+  <input type="text" id="key" placeholder="yaju_xxxxxxxxxxxxxxxx" spellcheck="false" autocomplete="off">
+  <button id="save">保存</button>
+  <div id="msg"></div>
+  <script src="options.js"></script>
+</body>
+</html>

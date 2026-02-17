@@ -233,7 +233,7 @@
   }
 
   function debouncedSearch(input, dropdown) {
-    clearTimeout(debounceId);
+    clearTimeout(debounceId);g
     debounceId = setTimeout(() => performSearch(input.value, dropdown), 350);
   }
 
@@ -386,7 +386,7 @@
   }
 
   function buildUserUrl(username) {
-    return `${SITE_BASE}/user/${encodeURIComponent(username)}`;
+    return `${SITE_BASE}/${encodeURIComponent(username)}`;
   }
 
   function relativeTime(iso) {

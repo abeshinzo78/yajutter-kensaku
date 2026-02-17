@@ -386,7 +386,7 @@
   }
 
   function buildUserUrl(username) {
-    return `${SITE_BASE}/user/${encodeURIComponent(username)}`;
+    return `${SITE_BASE}/${encodeURIComponent(username)}`;
   }
 
   function relativeTime(iso) {

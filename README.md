@@ -2,6 +2,9 @@
 
 ヤジュッター (https://yajutter.yajuvideo.in/) のヘッダーに検索機能を追加する Firefox 拡張機能です。
 
+[有志の方が作ってくださったChrome版](https://github.com/kongyo2/yajutter-kensaku-chrome)
+
+
 ## 機能
 
 - ヘッダーに検索バーを追加
